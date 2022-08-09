@@ -1,0 +1,52 @@
+---
+site_name: FooBarNetes
+site_description: Learn the basics of k8s
+site_url: https://mrtolkien.github.io/foobarnetes/
+
+repo_name: mrtolkien/foobarnetes
+repo_url: https://github.com/mrtolkien/foobarnetes
+edit_uri: ""
+
+theme:
+  name: material
+  # Re-using some k8s@home assets to start!
+  logo: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
+  favicon: https://raw.githubusercontent.com/k8s-at-home/organization/main/logo/k8s-at-home-32.png
+  icon:
+    repo: fontawesome/brands/github-alt
+  features:
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mrtolkien/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TolkiCasts
+
+nav:
+  - Introduction: index.md
+  - Workstation:
+      - Prerequisite: 1-workstation/0-prerequisite.md
+      - Tools: 1-workstation/1-tools.md
+      - Age + SOPS: 1-workstation/2-age-sops.md
+  - Host:
+      - Intro: 2-host/0-intro.md
+      - OS: 2-host/1-os.md
