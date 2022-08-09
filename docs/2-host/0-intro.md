@@ -1,4 +1,4 @@
-# Intro
+# Host introduction
 
 ## Glossary
 

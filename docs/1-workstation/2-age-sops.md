@@ -1,3 +1,0 @@
-# Age + SOPS setup
-
-## TODO

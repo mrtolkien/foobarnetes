@@ -1,4 +1,4 @@
-# Operating system
+# Host operating system
 
 ## Fedora Server
 

@@ -46,7 +46,9 @@ nav:
   - Workstation:
       - Prerequisite: 1-workstation/0-prerequisite.md
       - Tools: 1-workstation/1-tools.md
-      - Age + SOPS: 1-workstation/2-age-sops.md
+      - Git: 1-workstation/2-git-repo.md
+      - Age + SOPS: 1-workstation/3-age-sops.md
   - Host:
       - Intro: 2-host/0-intro.md
       - OS: 2-host/1-os.md
+      - Setup: 2-host/2-setup.md
